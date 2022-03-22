@@ -1,0 +1,4 @@
+CREATE DATABASE HoneyPotDB;
+USE HoneyPotDB;
+
+CREATE TABLE requests (id int NOT_NULL AUTO_INCREMENT, path text, PRIMARY KEY(id));
